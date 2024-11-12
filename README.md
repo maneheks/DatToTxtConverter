@@ -6,11 +6,11 @@ Converts one or many .dat files into .txt files named after each player and form
 **Visit [releases](https://github.com/maneheks/DatToTxtConverter/releases) to download the latest release.**
 
 How it works:
-* The program asks for a file path to the folder containing .dat files
-* The program will only process files with a .dat extension so the folder does not need to contain exclusively .dat files
-* The program will display the path cleaned of any disallowed characters
-* As the program goes through each file, it will display the path and name of the file it is processing, any errors it encounters, and the path and name of the saved .txt file
-* If a particular item is not found in the .dat file, the program will output an index error.
+* Enter a file path to the folder containing .dat files
+* Only processes files with a .dat extension so the folder does not need to contain exclusively .dat files
+* Displays the path cleaned of any disallowed characters
+* Displays the path and name of the file being processed, any errors encountered, and the path and name of the saved .txt file
+* If a particular item is not found in the .dat file, an index error is displayed.
 
 Future improvements:
 * Make error messages more user friendly
